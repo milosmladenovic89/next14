@@ -20,7 +20,7 @@ export default function Navbar() {
                 <ul className=" menu menu-horizontal md:ml-8">
                     {links.map((link) => {
                         return <li key={link.href}>
-                            <Link href={link.label}>{link.label}</Link>
+                            <Link href={link.label} className=" capitalize">{link.label}</Link>
                         </li>
                     })}
                 </ul>
