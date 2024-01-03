@@ -1,7 +1,9 @@
 
+interface LayoutProps{
+  children: React.ReactNode
+ }
 
-
-export default function DrinksLayout({ children }: any) {
+export default function DrinksLayout({ children }: LayoutProps) {
   return (
     <div className="w-full">
       
